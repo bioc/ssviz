@@ -1,7 +1,7 @@
 Package: ssviz
 Type: Package
 Title: A small RNA-seq visualizer and analysis toolkit
-Version: 1.11.0
+Version: 1.11.1
 Date: 2014-07-15
 Author: Diana Low
 Maintainer: Diana Low <lowdiana@gmail.com>
@@ -13,3 +13,4 @@ biocViews: Sequencing,RNASeq,Visualization,MultipleComparison,Genetics
 Collate: AllClasses.R AllGenerics.R helper.R
 VignetteBuilder: knitr
 Suggests: knitr
+PackageStatus: Deprecated
