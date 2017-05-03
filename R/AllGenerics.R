@@ -135,7 +135,7 @@ setMethod("pingpong",signature=c(bam_file="DataFrame"),
             pos_reads<-bam_file[bam_file$strand=="+",]
             neg_reads<-bam_file[bam_file$strand=="-",]
             maxposlength<-max(pos_reads$qwidth)
-            listrnames<-suppressWarnings(as.character(unique(bam_file$rname)))
+            listrnames<-suppressWarnings(unique(as.character(bam_file$rname)))
             message("Checking rnames: ")
             message(listrnames)
             

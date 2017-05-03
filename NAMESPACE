@@ -5,6 +5,9 @@ import(methods,
        ggplot2,
        RColorBrewer
        )
+importFrom("graphics", "hist")
+importFrom("stats", "aggregate", "density")
+importFrom("utils", "setTxtProgressBar", "txtProgressBar")
 
 exportClasses(
     "logicalORmissing"
