@@ -34,8 +34,9 @@ After pre-processing, reads are then mapped to list of contaminants (snoRNA, snR
 \section{Installing and loading the ssviz package}
 We recommend that users install the package via Bioconductor, since this will automatically detect and install all required dependencies. The Bioconductor installation procedure is described at \href{http://www.bioconductor.org/docs/install/}{http://www.bioconductor.org/docs/install/}. To install \emph{ssviz}, launch a new R session, and in a command terminal either type or copy/paste:
 <<eval=FALSE>>=
-source("http://www.bioconductor.org/biocLite.R")
-biocLite("ssviz")
+if (!requireNamespace("BiocManager", quietly=TRUE))
+    install.packages("BiocManager")
+BiocManager::install("ssviz")
 @
 \clearpage
 \section{Using \emph{ssviz}}
