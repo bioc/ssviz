@@ -1,8 +1,8 @@
 Package: ssviz
 Type: Package
 Title: A small RNA-seq visualizer and analysis toolkit
-Version: 1.29.0
-Date: 2017-05-03
+Version: 1.29.1
+Date: 2021-11-21
 Author: Diana Low
 Maintainer: Diana Low <lowdiana@gmail.com>
 Description: Small RNA sequencing viewer
